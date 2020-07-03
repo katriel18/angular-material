@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./inicio.component.css']
 })
 export class InicioComponent implements OnInit {
-  empresas=['uno','dos'];
+  empresas=['1','2','3','4'];
   constructor() { }
 ///no
   ngOnInit(): void {

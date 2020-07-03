@@ -11,6 +11,7 @@ import { CardOrganizacionComponent } from './inicio/card-organizacion/card-organ
 
 import { MatSliderModule } from '@angular/material/slider';
 import {MatCardModule} from '@angular/material/card';
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [ InicioComponent,ContenidoComponent,CardOrganizacionComponent],
@@ -21,6 +22,7 @@ import {MatCardModule} from '@angular/material/card';
     
     MatSliderModule,
     MatCardModule,
+MatButtonModule,
 
   ],
     
