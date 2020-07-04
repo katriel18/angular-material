@@ -1,27 +1,23 @@
-
-<mat-card style="text-align: center;">PAGINA PRINCIPAL</mat-card>
-
+<mat-card style="text-align: center;background-color: rgba(56, 245, 9, 0.541);">PaLlevar FrontEnd</mat-card>
 <!--PAGINA-->
 
-    <!--MENU-->
+<!--MENU-->
 
-    <section>
-        <div class="example-button-row">
-        <a mat-button  routerLink="/inicio" >inicio</a>
-        <a mat-button routerLink="/contenido" >contenido</a>
-        </div>
-    </section>
+<section>
+    <div class="example-button-row">
+        <a mat-button routerLink="/menu">Menu del Dia-antes</a>
+        <a mat-button routerLink="/menu-del-dia">Menu del Dia</a>
+        <a mat-button routerLink="/combos">Combos</a>
+    </div>
+</section>
 
-    <!--END MENU-->
+<!--END MENU-->
 
-    <!--BODY-->
+<!--BODY-->
 
 
-    <router-outlet></router-outlet>
+<router-outlet></router-outlet>
 
-    <!--END BODY-->
+<!--END BODY-->
 
 <!--END PAGINA-->
-
-
-

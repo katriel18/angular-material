@@ -2,19 +2,33 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-/////////////////////////////////////////
-import { InicioComponent } from './inicio/inicio.component';
-import { ContenidoComponent } from './contenido/contenido.component';
-import { CardOrganizacionComponent } from './inicio/card-organizacion/card-organizacion.component';
 
-/////////////////////////////////////////
+/////////////// MATERIAL /////////////////
 
 import { MatSliderModule } from '@angular/material/slider';
 import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
 
+import {MatGridListModule} from '@angular/material/grid-list';
+/////////////////// COMPONENTES /////////////////
+
+import { ContenidoComponent } from './contenido/contenido.component';
+
+import { MenuDelDiaComponent } from './menu-del-dia/menu-del-dia.component';
+
+
+import { CardMenuDelDiaComponent } from './menu-del-dia/grid-list-menu-del-dia/card-menu-del-dia/card-menu-del-dia.component';
+import { GridListMenuDelDiaComponent } from './menu-del-dia/grid-list-menu-del-dia/grid-list-menu-del-dia.component';
+
 @NgModule({
-  declarations: [ InicioComponent,ContenidoComponent,CardOrganizacionComponent],
+  declarations: [
+  
+    ContenidoComponent,
+    MenuDelDiaComponent ,
+   GridListMenuDelDiaComponent,
+    CardMenuDelDiaComponent
+    
+    ],
   imports: [
     CommonModule,
     
@@ -22,8 +36,8 @@ import {MatButtonModule} from '@angular/material/button';
     
     MatSliderModule,
     MatCardModule,
-MatButtonModule,
-
+    MatButtonModule,
+    MatGridListModule,
   ],
     
 

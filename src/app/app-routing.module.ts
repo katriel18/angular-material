@@ -7,15 +7,16 @@ import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 
 /////////// //////////////////////
-import { InicioComponent } from './componentes-generales/inicio/inicio.component';
 
 import { ContenidoComponent } from './componentes-generales/contenido/contenido.component';
+import { MenuDelDiaComponent } from './componentes-generales/menu-del-dia/menu-del-dia.component';
 
 /////////////////////////////////
 const routes: Routes = [
   //{ path: '', redirectTo: '/inicio', pathMatch: 'full' },
-  { path: 'inicio', component: InicioComponent},
-  { path: 'contenido', component: ContenidoComponent }
+ 
+  { path: 'menu-del-dia', component: MenuDelDiaComponent },
+  { path: 'combos', component: ContenidoComponent },
 ];
 
 

@@ -29,7 +29,6 @@ import {MatButtonModule} from '@angular/material/button';
     AppRoutingModule,
  
 
-
     /////////// MATERIAL /////////
     MatButtonModule,
     MatCardModule

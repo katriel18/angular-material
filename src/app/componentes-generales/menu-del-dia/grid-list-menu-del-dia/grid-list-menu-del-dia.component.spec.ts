@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { InicioComponent } from './inicio.component';
+import { GridListMenuDelDiaComponent } from './grid-list-menu-del-dia.component';
 
-describe('InicioComponent', () => {
-  let component: InicioComponent;
-  let fixture: ComponentFixture<InicioComponent>;
+describe('GridListMenuDelDiaComponent', () => {
+  let component: GridListMenuDelDiaComponent;
+  let fixture: ComponentFixture<GridListMenuDelDiaComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ InicioComponent ]
+      declarations: [ GridListMenuDelDiaComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(InicioComponent);
+    fixture = TestBed.createComponent(GridListMenuDelDiaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
