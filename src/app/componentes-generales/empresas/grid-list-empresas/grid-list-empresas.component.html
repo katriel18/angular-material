@@ -1,0 +1,7 @@
+<mat-grid-list cols="5" rowHeight="85px" gutterSize="1px">
+    <mat-grid-tile *ngFor="let e of empresas" [colspan]="cols" [rowspan]="rows">
+
+        <app-card-empresas [empresa]="e"></app-card-empresas>
+
+    </mat-grid-tile>
+</mat-grid-list>

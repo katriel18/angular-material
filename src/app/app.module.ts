@@ -10,9 +10,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ComponentesGeneralesModule } from './componentes-generales/componentes-generales.module';
 ////////////////////////////////////////////////
 import { AppRoutingModule } from './app-routing.module';
-////////////////////////////////////////////////
-import {MatCardModule} from '@angular/material/card';
-import {MatButtonModule} from '@angular/material/button';
+////////////////////////MATERIAL////////////////
+import { MaterialModule } from './componentes-generales/material/material.module';
+
+
 @NgModule({
   declarations: [
     AppComponent
@@ -23,6 +24,7 @@ import {MatButtonModule} from '@angular/material/button';
 
 
     ////////// MODULOS ////////
+   
     ComponentesGeneralesModule,
 
   ////////// RUTAS ////////
@@ -30,9 +32,8 @@ import {MatButtonModule} from '@angular/material/button';
  
 
     /////////// MATERIAL /////////
-    MatButtonModule,
-    MatCardModule
-  
+
+      MaterialModule,
   ],
 
   

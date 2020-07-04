@@ -10,11 +10,12 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { ContenidoComponent } from './componentes-generales/contenido/contenido.component';
 import { MenuDelDiaComponent } from './componentes-generales/menu-del-dia/menu-del-dia.component';
+import { EmpresasComponent } from './componentes-generales/empresas/empresas.component';
 
-/////////////////////////////////
+//////////////// RUTAS ////////////
 const routes: Routes = [
-  //{ path: '', redirectTo: '/inicio', pathMatch: 'full' },
- 
+  { path: '', redirectTo: '/empresas', pathMatch: 'full' },
+  { path: 'empresas', component: EmpresasComponent },
   { path: 'menu-del-dia', component: MenuDelDiaComponent },
   { path: 'combos', component: ContenidoComponent },
 ];
